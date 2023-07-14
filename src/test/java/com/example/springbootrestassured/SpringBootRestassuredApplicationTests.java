@@ -20,6 +20,7 @@ class SpringBootRestassuredApplicationTests {
 	}
 	@Test
 	void contextLoads() {
+
 	}
 
 	@Test
