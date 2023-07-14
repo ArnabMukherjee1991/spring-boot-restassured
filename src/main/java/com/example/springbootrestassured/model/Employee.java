@@ -12,7 +12,7 @@ import static lombok.AccessLevel.*;
 @Builder(setterPrefix = "set", toBuilder = true)
 @AllArgsConstructor
 public class Employee {
-
+    String ID;
     String fname;
     String lname;
     String email;
