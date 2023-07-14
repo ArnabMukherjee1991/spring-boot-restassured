@@ -1,0 +1,10 @@
+server:
+  port: 8080
+swagger:
+    enabled: true
+    title: Spring Boot RestAssured Demo
+    description: Spring Boot RestAssured Demo
+    version: 1.0
+    base-package: com.example.demo
+    contact-name: Swagger
+    contact-url:
