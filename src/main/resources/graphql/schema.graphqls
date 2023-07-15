@@ -1,0 +1,24 @@
+type Query {
+  jobById(id: ID): [Job]
+  findAllJobs : [Job]
+}
+
+type Job {
+  id :  ID!
+  jobTitle : String
+  salary : String
+  minExperience :  Int
+  maxExperience :  Int
+  location : String
+  coreSkills : [String]
+  additionalSkills : [String]
+  jobDescription : [String]
+  postedDate: String
+}
+
+
+#type Author {
+#  id: ID
+#  firstName: String
+#  lastName: String
+#}

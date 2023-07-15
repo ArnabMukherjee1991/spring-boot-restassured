@@ -8,3 +8,25 @@ swagger:
     base-package: com.example.demo
     contact-name: Swagger
     contact-url:
+
+spring:
+  graphql:
+    playground:
+      endpoint: /graphql
+      subscriptionEndpoint: /subscriptions
+      enabled: true
+      pageTitle: Playground
+      cdn:
+        enabled: false
+        version: latest
+      static-path:
+        base: /api/vendor/playground/
+        mapping: /playground/**
+    schema-location-pattern: classpath:graphql/*.graphqls
+    graphiql:
+      enabled: true
+      mapping: /graphiql/**
+
+    #schema-json-file: schema.json
+    #schema-json-file: classpath:graphql/schema.json
+    #schema-json-file: file:graphq
