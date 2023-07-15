@@ -1,11 +1,11 @@
-package com.example.springbootrestassured.controller;
+package com.jobportal.backend.controller;
 
-import com.example.springbootrestassured.model.Employee;
+import com.jobportal.backend.model.Employee;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-import static com.example.springbootrestassured.util.APiConstants.ADD_Employee;
-import static com.example.springbootrestassured.util.APiConstants.GET_Employee;
+import static com.jobportal.backend.util.APiConstants.ADD_Employee;
+import static com.jobportal.backend.util.APiConstants.GET_Employee;
 
 @RestController
 public class EmployeeController {

@@ -1,6 +1,6 @@
-package com.example.springbootrestassured;
+package com.jobportal.backend;
 
-import com.example.springbootrestassured.model.Employee;
+import com.jobportal.backend.model.Employee;
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
 import io.restassured.response.ResponseBody;
@@ -12,7 +12,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Map;
 
-import static com.example.springbootrestassured.util.APiConstants.ADD_Employee;
+import static com.jobportal.backend.util.APiConstants.ADD_Employee;
 import static io.restassured.RestAssured.given;
 @Slf4j
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.DEFINED_PORT)

@@ -1,4 +1,4 @@
-package com.example.springbootrestassured.util;
+package com.jobportal.backend.util;
 
 public class APiConstants {
     public static final String BASE_URL = "http://localhost:8080";
