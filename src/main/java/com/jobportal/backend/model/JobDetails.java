@@ -1,4 +1,4 @@
-package com.example.springbootrestassured.model;
+package com.jobportal.backend.model;
 
 import lombok.Builder;
 import lombok.Data;

@@ -1,4 +1,4 @@
-package com.example.springbootrestassured.model;
+package com.jobportal.backend.model;
 
 public enum OrganizationType {
     COMPANY,

@@ -1,4 +1,4 @@
-package com.example.springbootrestassured;
+package com.jobportal.backend;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
