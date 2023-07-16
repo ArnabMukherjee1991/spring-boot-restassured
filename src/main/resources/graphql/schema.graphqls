@@ -1,0 +1,40 @@
+type Query {
+    jobById(id: ID): [Job]
+    findAllJobs : [Job]
+   # addJob(jobTitle : String, salary : String, minExperience :  Int, maxExperience :  Int, location : String, coreSkills : [String], additionalSkills : [String], jobDescription : [String], postedDate: String) : Job
+}
+
+type Mutation {
+    addJob(jobInput: JobInput!) : Job
+}
+
+type Job {
+    jobTitle : String
+    salary : String
+    minExperience :  Int
+    maxExperience :  Int
+    location : String
+    coreSkills : [String]
+    additionalSkills : [String]
+    jobDescription : [String]
+    postedDate: String
+}
+
+input JobInput {
+    jobTitle : String
+    salary : String
+    minExperience :  Int
+    maxExperience :  Int
+    location : String
+    coreSkills : [String]
+    additionalSkills : [String]
+    jobDescription : [String]
+    postedDate: String
+}
+
+
+#type Author {
+#  id: ID
+#  firstName: String
+#  lastName: String
+#}
